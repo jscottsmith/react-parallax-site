@@ -1,0 +1,23 @@
+{
+  "name": "react-parallax-site",
+  "version": "1.0.0",
+  "description": "React Parallax Site v2 Demo",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "./node_modules/next/dist/bin/next build",
+    "start": "./node_modules/next/dist/bin/next start -p $PORT"
+  },
+  "author": "J Scott Smith",
+  "license": "ISC",
+  "dependencies": {
+    "@zeit/next-sass": "^1.0.1",
+    "babel-plugin-module-resolver": "^3.1.1",
+    "classnames": "^2.2.5",
+    "next": "^7.0.2",
+    "node-sass": "^4.9.4",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-scroll-parallax": "^2.0.0-alpha.6"
+  }
+}
